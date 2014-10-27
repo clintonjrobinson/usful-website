@@ -8,74 +8,146 @@ body {
 
   padding: 0;
   margin: 0;
-}
 
-h1 {
-  font-size: 1200%;
-  text-align: center;
-  margin: 1.5em 0 0 0;
-}
-
-h2 {
-  font-size: 250%;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-hr {
-  margin: 10em 33% 5em 33%;
-  background-color: #aaa;
-  height: 1px;
-  border: none;
-}
-
-section.founder {
-  display: inline-block;
-  width: 30%;
-  vertical-align: middle;
-  text-align: center;
-  font-family: $fontLight;
 
   h1 {
-    font-family: $font;
-    font-size: 200%;
-    margin: 0.25em 0;
-    padding: 0;
+    font-size: 1200%;
+    text-align: center;
+    margin: 1.5em 0 0 0;
   }
 
   h2 {
-    font-size: 150%;
-    margin: 0 0 0.5em 0;
-    padding: 0;
-  }
-
-  h3 {
-    font-size: 150%;
+    font-size: 250%;
+    text-align: center;
     margin: 0;
     padding: 0;
   }
 
-  a {
-    text-decoration: none;
+  hr {
+    margin: 10em 33% 5em 33%;
+    background-color: #aaa;
+    height: 1px;
+    border: none;
+  }
+
+  section.founder {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+    font-family: $fontLight;
+
+    h1 {
+      font-family: $font;
+      font-size: 200%;
+      margin: 0.25em 0;
+      padding: 0;
+    }
+
+    h2 {
+      font-size: 150%;
+      margin: 0 0 0.5em 0;
+      padding: 0;
+    }
+
+    h3 {
+      font-size: 150%;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: $fontColor;
+    }
+
+    img.portrait {
+      width: 8em;
+      border: 0.25em solid $fontColor;
+      border-radius: 8em;
+      margin: 0;
+    }
+
+    &#kofi {
+      margin: 4em 18% 8em 0;
+    }
+
+    &#clint {
+      margin: 4em 0 8em 18%;
+    }
+  }
+}
+
+
+body.littleroom {
+  background-color: #fff;
+
+  img.logo {
+    display: block;
+    width: 33%;
+    margin: 8em auto;
+  }
+
+  h1 {
+    font-family: $fontLight;
+    font-size: 500%;
+    padding: 1em 15%;
+    margin: 1.5em auto;
+    font-weight: normal;
+    background-color: $backgroundColor;
     color: $fontColor;
   }
 
-  img {
-    width: 8em;
-    border: 0.25em solid $fontColor;
-    border-radius: 8em;
-    margin: 0;
+  p {
+    font-size: 225%;
+    margin: 2em 0;
+    padding: 0 16.5%;
+    line-height: 1.5em;
+    text-align: justify;
   }
 
-  &#kofi {
-    margin: 4em 18% 8em 0;
+  img.team {
+    width: 100%;
   }
 
-  &#clint {
-    margin: 4em 0 8em 18%;
+  div.logos {
+    padding: 4em 0;
+    background-color: $backgroundColor;
+    display: block;
+    text-align: center;
+
+    img {
+      width: 12em;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 1em 2em;
+    }
   }
-}
+
+
+  section.founder {
+    width: 22%;
+
+    h1 {
+      background-color: transparent;
+    }
+
+    img.sig {
+      width: 100%;
+    }
+
+    &#justin {
+      margin: 4em 0 8em 17%;
+    }
+
+    &#clint {
+      margin: 4em 0 8em 0;
+    }
+
+    &#kofi {
+      margin: 4em 17% 8em 0;
+    }
+  }}
 
 @for $i from 14 through 24 {
   @media screen and (min-width: $i * 100px) {

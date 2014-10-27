@@ -22,12 +22,12 @@
     <hr/>
 
     <section id='clint' class='founder'>
-        <img src='/img/clint.jpg' alt='Clint Robinson'/>
+        <img class='portrait' src='/img/clint.jpg' alt='Clinton Robinson'/>
         <h1><a href=''>Clinton Robinson</a></h1>
         <h2>Vision - Leadership - Technology</h2>
         <h3><a href='mailto:clint@usful.co'>clint@usful.co</a></h3>
     </section><section id='kofi' class='founder'>
-        <img src='/img/kofi.jpg' alt='Kofi Gyekye'/>
+        <img class='portrait' src='/img/kofi.jpg' alt='Kofi Gyekye'/>
         <h1><a href=''>Kofi Gyekye</a></h1>
         <h2>Relationships - Product - Vision</h2>
         <h3><a href='mailto:kofi@usful.co'>kofi@usful.co</a></h3>

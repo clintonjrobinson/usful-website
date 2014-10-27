@@ -13,9 +13,80 @@
     apollo.url = "[= me._url =]";
     apollo.user = [= me.user ? JSON.stringify(me.user) : '{}' =];
   </script>
-  <title>Usful | Be useful. Change the world.</title>
+  <title>Little Room Inc | 2011 - 2014</title>
 </head>
-<body>
-    <h1>Little Room Inc.</h1>
+<body class="littleroom">
+    <img class='logo' src='/img/littleroom.png'/>
+
+    <h1>Hope It Was As Awesome For You As It Was For Us</h1>
+    
+    <p>
+        We've never really been a conventional agency. We don't even have a foosball table, and our origin story is less ‘merge and acquire', more ‘ideals and optimism'.
+        3 years ago, we had the simple idea that the world deserved a better kind of company, and we were going to be it.
+    </p>
+
+    <h1>Our First Chapter</h1>
+    
+    <p>
+        We called our company Little Room because that's where we started: just the three of us, in a little room. We outgrew that space,
+        found a home on Adelaide Street, turned it into our office/club house/dinner party locale (occasionally all 3 at the same time),
+        and filled it with 30 of the industry's best and brightest.  In 3 short years, we had the privilege of working to grow Little Room
+        from a rookie company with no funding and no clients to an award-winning company with international clients.
+    </p>
+
+    <div class='logos'>
+        <div class='inner'>
+            <img src='/img/logos/brookfield.png'/>
+            <img src='/img/logos/cadillac.png'/>
+            <img src='/img/logos/chevy.png'/>
+            <img src='/img/logos/dhx_media.png'/>
+            <img src='/img/logos/eo.png'/>
+            <img src='/img/logos/greenowl.png'/>
+            <img src='/img/logos/hbc.png'/>
+            <img src='/img/logos/infiniti.png'/>
+            <img src='/img/logos/nissan.png'/>
+            <img src='/img/logos/porsche.png'/>
+            <img src='/img/logos/rogers.png'/>
+            <img src='/img/logos/sony.png'/>
+            <img src='/img/logos/topshop.png'/>
+            <img src='/img/logos/wattpad.png'/>
+       </div>
+    </div>
+
+    <p>
+        Now, as our first chapter draws to a close, we want to thank everyone who was a part of it. It has been an absolute pleasure working
+        with all of our clients, and we'd like to thank all of you for taking a chance on us.
+    </p>
+
+    <img class='team' src='/img/team.jpg'/>
+
+    <p class="team">
+       We also need to thank the Little Room family. It would be an enormous understatement to say that this would have been nowhere near
+       as a big a success without you, no to mention nowhere near as much fun. We simply cannot thank you enough, and truly hope it was as
+       awesome for you as it was for us.
+    </p>
+
+    <h1>What's Next?</h1>
+
+    <p>
+        With Little Room, we set out to create a better kind of company, and we did it. We created a momentum that has been driving us forward
+        since the beginning, and it's time to channel that momentum into new opportunities. It's why we've made the decision to stop making
+        advertising that changes minds, and start making useful products that change the world. We're leaving our Little Room for some pretty
+        big things.
+    </p>
+
+    <section id='justin' class='founder'>
+        <img class='portrait' src='/img/justin.jpg' alt='Justin Sanders'/>
+        <h1>Justin Sanders</h1>
+        <!-- <img class='sig' src='/img/justin-sig.jpg' alt='Justin Sanders'/> -->
+    </section><section id='clint' class='founder'>
+        <img class='portrait' src='/img/clint.jpg' alt='Clinton Robinson'/>
+        <h1>Clinton Robinson</h1>
+        <img class='sig' src='/img/clint-sig.png' alt='Clinton Robinson'/>
+    </section><section id='kofi' class='founder'>
+        <img class='portrait' src='/img/kofi.jpg' alt='Kofi Gyekye'/>
+        <h1>Kofi Gyekye</h1>
+        <img class='sig' src='/img/kofi-sig.png' alt='Kofi Gyekye'/>
+    </section>
 </body>
 </html>
