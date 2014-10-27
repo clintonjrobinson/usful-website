@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    [[ui:
+      core-polymer,
+      usful-main
+    ]]
+    [[type:
+      all
+    ]]
+    <script>
+      apollo.url = "[= me._url =]";
+      apollo.user = [= me.user ? JSON.stringify(me.user) : '{}' =];
+    </script>
+    <title>Usful | Be useful. Change the world.</title>
+  </head>
+  <body>
+    <h1>Usful.</h1>
+    <h2>Be useful. Change the world.</h2>
+
+    <hr/>
+
+    <section id='clint' class='founder'>
+        <img src='/img/clint.jpg' alt='Clint Robinson'/>
+        <h1><a href=''>Clinton Robinson</a></h1>
+        <h2>Vision - Leadership - Technology</h2>
+        <h3><a href='mailto:clint@usful.co'>clint@usful.co</a></h3>
+    </section><section id='kofi' class='founder'>
+        <img src='/img/kofi.jpg' alt='Kofi Gyekye'/>
+        <h1><a href=''>Kofi Gyekye</a></h1>
+        <h2>Relationships - Product - Vision</h2>
+        <h3><a href='mailto:kofi@usful.co'>kofi@usful.co</a></h3>
+    </section>
+
+  </body>
+</html>

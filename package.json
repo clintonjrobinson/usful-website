@@ -1,0 +1,9 @@
+{
+  "name": "usful-website",
+  "version": "1.0.0",
+  "dependencies": {
+    "p-promise": "~0.4.8",
+    "moment": "~2.8.3",
+    "mobile-detect": "~0.4.1"
+  }
+}
