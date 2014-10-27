@@ -17,7 +17,7 @@ var config = apollo.config;
 app.get('/', function(req, res) {
   var md = new MobileDetect(req.headers['user-agent']);
 
-  app.apolloRender(req, res, 'index.apollo', {
+  app.apolloRender(req, res, config.name + '.apollo', {
     config: config,
     mobile: md.phone(),
     android: md.is('AndroidOS'),

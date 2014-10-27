@@ -19,13 +19,24 @@
     "supportEmail": "admin@mybac.ca",
     "session_timeout": 2592000000
   },
-  "env:prod": {
+  "env:usful": {
     "name": "usful",
     "contact": "clint@usful.co",
     "version": "1.0",
     "url": "http://usful.co/",
     "mongo": {
       "database": "usful"
+    },
+    "port": 8080,
+    "workers": 2
+  },
+  "env:littleroom": {
+    "name": "littleroom",
+    "contact": "clint@littleroom.ca",
+    "version": "1.0",
+    "url": "http://www.littleroom.ca/",
+    "mongo": {
+      "database": "littleroom"
     },
     "port": 8080,
     "workers": 2
