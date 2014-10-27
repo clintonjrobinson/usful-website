@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  [[ui:
+    core-polymer,
+    usful-main
+  ]]
+  [[type:
+    all
+  ]]
+  <script>
+    apollo.url = "[= me._url =]";
+    apollo.user = [= me.user ? JSON.stringify(me.user) : '{}' =];
+  </script>
+  <title>Usful | Be useful. Change the world.</title>
+</head>
+<body>
+    <h1>Little Room Inc.</h1>
+</body>
+</html>
