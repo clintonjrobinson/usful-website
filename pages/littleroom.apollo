@@ -78,7 +78,7 @@
     <section id='justin' class='founder'>
         <img class='portrait' src='/img/justin.jpg' alt='Justin Sanders'/>
         <h1>Justin Sanders</h1>
-        <!-- <img class='sig' src='/img/justin-sig.jpg' alt='Justin Sanders'/> -->
+        <img class='sig' src='/img/justin-sig.jpg' alt='Justin Sanders'/>
     </section><section id='clint' class='founder'>
         <img class='portrait' src='/img/clint.jpg' alt='Clinton Robinson'/>
         <h1>Clinton Robinson</h1>
